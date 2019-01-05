@@ -1,0 +1,28 @@
+{
+  "name": "apresentacao_nextjs",
+  "version": "1.0.0",
+  "author": "Flavio Fernandes",
+  "description": "Projeto para apresentação Tecnologia SMN - Junho",
+  "scripts": {
+    "start": "next"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "2.0.0",
+    "next": "6.0.3",
+    "prop-types": "15.6.2",
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "1.3.5"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+  }
+}

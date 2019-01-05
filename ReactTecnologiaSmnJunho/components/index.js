@@ -1,0 +1,5 @@
+export * from './barraDeNavegacao'
+export * from './itemPost'
+export * from './pagina'
+export * from './post'
+export * from './posts'
